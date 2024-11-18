@@ -1,4 +1,3 @@
-import './App.css'; // Optional: Move styles to a separate CSS file
 
 const ProgrammerInfo = () => {
   const members = [

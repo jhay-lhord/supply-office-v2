@@ -1,5 +1,3 @@
-import './App.css'; // Optional: Separate CSS for styles
-
 const AboutUs = () => {
   return (
     <div style={styles.body}>

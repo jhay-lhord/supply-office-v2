@@ -1,6 +1,3 @@
-
-import './App.css';
-
 const HomePage = () => {
   return (
     <div style={styles.body}>
