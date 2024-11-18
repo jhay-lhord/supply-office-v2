@@ -5,53 +5,42 @@ const ProgrammerInfo = () => {
       name: 'Jaylord Manila',
       contact: '09123456789',
       email: 'jaylordmanila@gmail.com',
-      image: '/1.png',
+      image: '1.png',
     },
     {
       name: 'Ariel Mosqueda',
       contact: '09123475843',
       email: 'ayeahmosqueda@gmail.com',
-      image: '/2.png',
+      image: '2.png',
     },
     {
       name: 'Ron Ryan Lataza',
       contact: '09123475843',
       email: 'ronryan.lataza@gmail.com',
-      image: '/3.png',
+      image: '3.png',
     },
     {
       name: 'Jade Anthony Ortega',
       contact: '09123475843',
       email: 'jadeortega@gmail.com',
-      image: '/4.png',
+      image: '4.png',
     },
     {
       name: 'Chesty Clint De Leon',
       contact: '09123475843',
       email: 'chesty@gmail.com',
-      image: '/5.png',
+      image: '5.png',
     },
     {
       name: 'Crislyn Tanudtanud',
       contact: '09123475843',
       email: 'crislyn@gmail.com',
-      image: '/6.png',
+      image: '6.png',
     },
   ];
 
   return (
     <div style={styles.body}>
-      {/* <nav style={styles.nav}>
-        <a href="index.html" style={styles.navLink}>
-          Home
-        </a>
-        <a href="about-us.html" style={styles.navLink}>
-          About Us
-        </a>
-        <a href="contact-us.html" style={styles.navLink}>
-          Contact Us
-        </a>
-      </nav> */}
       <h1 style={styles.title}>SlapSoil</h1>
       <div style={styles.memberContainer}>
         {members.map((member, index) => (

@@ -7,14 +7,14 @@ const App = () => {
   return (
     <Router >
       <nav style={styles.nav}>
-        <Link to="/" style={styles.navLink}>Home</Link>
-        <Link to="about-us" style={styles.navLink}>About Us</Link>
-        <Link to="contact-us" style={styles.navLink}>Contact Us</Link>
+        <Link to="/supply-office-v2/" style={styles.navLink}>Home</Link>
+        <Link to="/supply-office-v2/about-us" style={styles.navLink}>About Us</Link>
+        <Link to="/supply-office-v2/contact-us" style={styles.navLink}>Contact Us</Link>
       </nav>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about-us" element={<AboutUs />} />
-        <Route path="contact-us" element={<ContactUs />} />
+        <Route path="/supply-office-v2/" element={<Home />} />
+        <Route path="/supply-office-v2/about-us" element={<AboutUs />} />
+        <Route path="/supply-office-v2/contact-us" element={<ContactUs />} />
       </Routes>
     </Router>
   );
