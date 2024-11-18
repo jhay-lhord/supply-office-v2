@@ -4,7 +4,7 @@ const HomePage = () => {
       <div style={styles.content}>
         <h1 style={styles.homeText}>Home</h1>
         <h1>Supply Office Management System</h1>
-        <p>PITI</p>
+        <p>PITI GWAPA</p>
       </div>
     </div>
   );
