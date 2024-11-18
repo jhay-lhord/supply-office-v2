@@ -5,6 +5,7 @@ const HomePage = () => {
         <h1 style={styles.homeText}>Home</h1>
         <h1>Supply Office Management System</h1>
         <p>PITI GWAPA</p>
+        <p>PITI GWAPA 2.0</p>
       </div>
     </div>
   );
