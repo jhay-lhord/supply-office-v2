@@ -2,7 +2,7 @@ const HomePage = () => {
   return (
     <div style={styles.body}>
       <div style={styles.content}>
-        <h1 style={styles.homeText}>Home</h1>
+        <h1 style={styles.homeText}>Welcome</h1>
         <h1>Supply Office Management System</h1>
         <h2>Members</h2>
         <h3>Jaylord Manila</h3>
