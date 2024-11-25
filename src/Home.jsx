@@ -5,6 +5,11 @@ const HomePage = () => {
         <h1 style={styles.homeText}>Home</h1>
         <h1>Supply Office Management System</h1>
         <h2>Members</h2>
+        <h3>Jaylord Manila</h3>
+        <h3>Jade Ortega</h3>
+        <h3>Crislyn Tanudtanud</h3>
+        <h3>Ariel Mosqueda</h3>
+        <h3>Chesty Clint Deleon</h3>
       </div>
     </div>
   );
