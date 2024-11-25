@@ -4,6 +4,7 @@ const AboutUs = () => {
       <div style={styles.container}>
         <div style={styles.content}>
           <h1>About Us</h1>
+          <h2>Test</h2>
           <p>
             Welcome to our collective digital space, where innovation meets
             collaboration! We are a dynamic group of six passionate individuals,
