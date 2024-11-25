@@ -9,6 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Debug Trigger
+        run: echo "The workflow has started on push to the main branch."
+
       - name: Checkout repository
         uses: actions/checkout@v2
 
@@ -27,3 +30,12 @@ jobs:
         run: npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Success Message
+        if: success()
+        run: echo "Deployment was successful!"
+
+      - name: Failure Message
+        if: failure()
+        run: echo "Deployment failed. Check logs for details."
+
