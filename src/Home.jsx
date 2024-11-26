@@ -11,6 +11,7 @@ const HomePage = () => {
         <h3>Ron Ryan Lataza</h3>
         <h3>Ariel Mosqueda</h3>
         <h3>Chesty Clint Deleon</h3>
+        <h4>[SlapSoil 2024]</h4>
       </div>
     </div>
   );
