@@ -8,6 +8,7 @@ const HomePage = () => {
         <h3>Jaylord Manila</h3>
         <h3>Jade Ortega</h3>
         <h3>Crislyn Tanudtanud</h3>
+        <h3>Ron Ryan Lataza</h3>
         <h3>Ariel Mosqueda</h3>
         <h3>Chesty Clint Deleon</h3>
       </div>
